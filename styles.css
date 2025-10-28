@@ -29,22 +29,12 @@
 
 @media
 (max-width:600px){
-     .clock{git add 
+     .clock{
           background: none;
-          color: pink;
-          align-items: center;
           border: none;
           max-width: 50%;
 
      }
 }
 
-@media
-(min-width:600px){
-     .clock{
-          width: 50%;
-          align-items: center;
-          border: none;
 
-     }
-}
