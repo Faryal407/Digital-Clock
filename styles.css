@@ -13,15 +13,16 @@
 .clock{
     display: flex;
      color: rgb(177, 53, 95);
-    width: 40%;
-    height: 200px;
+    width: 25%;
+    height:100px;
     margin: 200px;
     padding-top:15px ;
+    padding-bottom: 15px;
     text-align: center;
     border: 2px solid;
     border-radius: 20px;
     background-color: pink;
     justify-content: center;
     padding: auto;
-     font-size: 5em;
+     font-size: 3em;
 }
