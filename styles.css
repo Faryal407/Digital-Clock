@@ -1,40 +1,47 @@
- body{
+  body{
      background-image: url(./asset/clock.jpg);
      background-size: cover;
+     align-items: center;
+     height: 100vh;
+     margin: 0;
+     justify-content: center;
 }
   .heading{
     font-family: sans-serif; 
      font-size: 50px;
      color: white ;
      margin-top:10%;
+     text-align: center;
 
 }
 
 .clock{
     display: flex;
      color: rgb(177, 53, 95);
-    width: 25%;
-    height:100px;
-    margin: 200px;
-    padding-top:15px ;
-    padding-bottom: 15px;
-    text-align: center;
-    border: 2px solid;
+     max-width: 38vw;
+    /* width: 15%;  */
+    margin-left:25%;
+    padding: 3vh 10vh;
     border-radius: 20px;
+    text-align: center;   
     background-color: pink;
     justify-content: center;
-    padding: auto;
-     font-size: 3em;
+    font-size: 3em; 
 }
 
-@media
-(max-width:600px){
-     .clock{
-          background: none;
-          border: none;
-          max-width: 50%;
-
-     }
+/* Additional responsive behavior */
+@media (max-width: 768px) {
+  .clock {
+     max-width: 30vw;
+    font-size: 5vw; /* Larger font for tablets */
+    padding: 3vw 10vw; /* Adjust padding for smaller devices */
+  }
 }
 
-
+@media (max-width: 480px) {
+  .clock {
+     max-width: 30vw;
+    font-size: 6vw; /* Even larger font for small screens */
+    padding: 3vw 10vw; /* Adjust padding accordingly */
+  }
+}
